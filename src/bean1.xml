@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:pp="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="stu" class="com.atguigu.spring5.collection.Stu">
+        <property name="courses">
+            <array>
+                <value>高数</value>
+                <value>历史</value>
+            </array>
+        </property>
+
+<!--        <property name="list">-->
+<!--            <list>-->
+<!--                <value>小明</value>-->
+<!--                <value>小红</value>-->
+<!--            </list>-->
+<!--        </property>-->
+
+<!--        <property name="maps">-->
+<!--            <map>-->
+<!--                <entry key="JAVA" value="java"></entry>-->
+<!--                <entry key="PHP" value="php"></entry>-->
+<!--            </map>-->
+<!--        </property>-->
+
+<!--        <property name="sets">-->
+<!--            <set>-->
+<!--                <value>互斥测试</value>-->
+<!--                <value>互斥测试</value>-->
+<!--                <value>互斥测试2</value>-->
+<!--            </set>-->
+<!--        </property>-->
+    </bean>
+</beans>
